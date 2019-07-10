@@ -10,6 +10,34 @@ body {
     color: #222;
 }
 
+#topNavBar {
+    position: fixed;
+    top: 16px;
+    width: 100%;
+    min-width: 980px;
+    z-index: 103;
+    font-size: 13px;
+}
+
 .centralStuff {
     margin: auto;
+}
+
+li {
+    display: inline;
+}
+
+li.NavBarLeft {
+    float: left;
+}
+
+li.NavBarRight {
+    float: right;
+}
+
+#fbar {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
 }
